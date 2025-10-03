@@ -1,4 +1,4 @@
-import sqlite_fix
+import sqlite3
 from crewai import Crew, Process
 from agents import website_analyst, competitor_analyst, competitor_researcher, report_writer
 from task import analysis_task, competitor_finding_task, competitor_researching_task, writing_task
@@ -44,3 +44,4 @@ else:
 
     st.subheader("Analysis Result")
     st.markdown(result, unsafe_allow_html=True)
+
