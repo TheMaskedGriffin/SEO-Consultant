@@ -1,0 +1,8 @@
+crewai
+crewai_tools
+crewai.flow
+python-dotenv
+streamlit
+validators
+pysqlite3-binary
+pydantic
